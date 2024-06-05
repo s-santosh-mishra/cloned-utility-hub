@@ -1,0 +1,144 @@
+@media screen and (max-width: 991px) {
+    .hamburg {
+        display: inline-block;
+        padding-right: 30px;
+    }
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        position: absolute;
+        left: -100%;
+        top: 100%;
+        background-color: white;
+        width: 100%;
+        transition: 0.5s ease-in-out;
+        
+    }
+    .nav-links.active {
+        left: 0%;
+    }
+
+    .main-nav {
+        position: relative;
+        overflow: initial;
+    }
+
+    .end-sec2 {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .sec2-img {
+        flex-basis: 35%;
+    }
+
+    .end-sec2 h3 {
+        font-size: 1.2rem;
+    }
+
+    .comp-logos {
+        width: 87%;
+        display: flex;
+         justify-content: center;
+        align-items: center;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .test-width {
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        padding-inline: 30px;
+    }
+
+    .last-footer {
+        flex-wrap: wrap;
+    }
+    .sec2-img {
+        height: 250px;
+    }
+    .final-foot {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .container {
+        padding-inline: 20px;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .features-area {
+        display: block;
+        text-align: center;
+    }
+    p {
+        font-size: 1rem;
+        font-family: "Roboto", sans-serif;
+        color: var(--secondary-text-color);
+        line-height: 1.2rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+
+
+    .features-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+    .col-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .second-description {
+        flex-direction: column-reverse;
+    }
+    .head-text{
+       padding: 0px;
+    }
+    .features-sec {
+        padding-top: 20px;
+    }
+    .sec2-img {
+        flex-basis: 60%;
+        gap: 30px;
+    }
+    .footer-f {
+        flex-basis: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+
+
+}    
+                                            
